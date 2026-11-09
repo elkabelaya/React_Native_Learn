@@ -1,0 +1,51 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+.npm
+yarn-error.log
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Native (генерируются Expo prebuild — не коммитить, если используете prebuild)
+# Если собираете вручную (bare), закоммитьте ios/ и android/ и уберите строки ниже
+ios/
+android/
+
+# Metro
+.metro-healthz*
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Logs
+*.log
+npm-debug.log*
+
+# Test coverage
+coverage/
+
+# Build artifacts
+*.apk
+*.aab
+*.ipa
+*.app
+
+# EAS
+.eas/
+
+# Maestros
+maestro-report/
